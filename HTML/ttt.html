@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Learnova</title>
+    <link rel="stylesheet" href="/Style/home_page.css">
+    <link rel="stylesheet" href="/Style/ttt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="icon" href="/Assets/blackhole purple logo.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/Assets/blackhole white logo.png" class="logo-icon" alt="Learnova Logo">
+                    <a href="/HTML/home_page.html" class="logo-text">Learnova</a>
+                </div>
+                <nav class="desktop-nav">
+                    <a href="#" class="nav-button explore-btn">Explore</a>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search for courses" class="search-input">
+                        <span class="material-symbols-outlined search">search</span>
+                    </div>
+                    <a href="#" class="nav-button">Pricing</a>
+                    <div class="auth-buttons">
+                        <a href="/HTML/login.html" class="login-btn">Login</a>
+                        <a href="/HTML/register.html" class="signup-btn">Sign Up</a>
+                    </div>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span class="menu-icon">☰</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- Register Section -->
+     <section class="register-section">
+      <div class="container">
+          <div class="register-form">
+              <h2 class="section-title">Create an Account</h2>
+              <form action="#" method="POST">
+                  <div class="form-group">
+                      <label for="firstName">First Name</label>
+                      <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="lastName">Last Name</label>
+                      <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="confirmPassword">Confirm Password</label>
+                      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="birthdate">Birthdate</label>
+                      <input type="date" id="birthdate" name="birthdate" required>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="birthplace">Birth Place</label>
+                      <input type="text" id="birthplace" name="birthplace" placeholder="Enter your birth place" required>
+                  </div>
+
+                 <div class="form-group">
+                      <label>Role</label>
+                      <div class="radio-group">
+                          <input type="radio" id="student" name="role" value="student" required>
+                          <label for="student">Student</label>
+                          <input type="radio" id="teacher" name="role" value="teacher" required>
+                          <label for="teacher">Teacher</label>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn register-btn">Register</button>
+              </form>
+              <div class="login-link">
+                  Already have an account? <a href="/HTML/login.html">Login here</a>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="/Assets/blackhole purple logo.png" class="logo-icon" alt="Learnova Logo">
+                        <span class="logo-text">Learnova</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering learners worldwide with accessible, high-quality education for everyone, anywhere, anytime.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-heading">Quick Links</h3>
+                        <ul class="footer-list">
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-heading">Legal</h3>
+                        <ul class="footer-list">
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2025 Learnova. All rights reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

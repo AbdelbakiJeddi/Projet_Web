@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    font: 16px sans-serif;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+body header{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 2rem  ;
+    background-color: #9B7EBD;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.logo-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem ;
+    border-radius: 4px;
+}
+.list a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
